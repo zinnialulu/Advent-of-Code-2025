@@ -18,7 +18,7 @@ for line in lines:
     #print(num1)
     sum1+=num1
     
-    x=max(linedg[0:l-12])
+    x=max(linedg[0:l-11])
     num2=(10**(12-1))*x
     id=linedg.index(x)
     #print(f"digit is {x},its index is {id}, and number is {num2}")
