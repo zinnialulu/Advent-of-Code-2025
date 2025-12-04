@@ -19,4 +19,9 @@ for rg in ranges:
             p1+=i
             #print(f"sum is {p1}")
 
+    for j in range(1,l/2+1):
+        if l%j==0:#can be repeated
+            
+            
+            
 print("sum", p1)
